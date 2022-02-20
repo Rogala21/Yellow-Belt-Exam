@@ -5,6 +5,7 @@
 h1 {
     font-size: 3em;
     margin: 0px;
+    padding: 5px;
 }
 
 .purple-line {
@@ -20,7 +21,6 @@ nav {
     justify-content: space-around;
     text-align: center;
     margin: 0px;
-    padding: 5px;
 }
 
 .left-nav {
