@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0px;
+}
+
+.purple-line {
+    height: 5px;
+    background-color: #9900ff;
+    width: 100%;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gaming {
+    color: white;
+}
+
+.dojo {
+    color: #9900ff;
+}
+
+.right-nav {
+    display: flex;
+    align-items: center;
+}
+
+#pricing {
+    height: 2em;
+}
+
+.cart-pic {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.nav-button {
+    background-color: transparent;
+    color: white;
+    margin-left: 2em;
+    border: none;
+    height: 55px;
+}
+
+
+#highlights {
+    margin: 10px auto;
+    width: 65%;
+
+}
+
+#highlights h2 {
+    margin: 0px auto;
+    width: 107px;
+}
+
+.banner-preview {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.banner-preview button{
+    width: 50px;
+    font-size: xx-large;
+    background-color: transparent;
+    border: none;
+}
+
+.preview-location{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 50%;
+}
+
+.cafe {
+    background-color: grey;
+    height: 10px;
+    width: 50px;
+}
+
+.pixel {
+    background-color: grey;
+    height: 10px;
+    width: 50px;
+}
+
+.stone {
+    background-color: #9900ff;
+    height: 10px;
+    width: 50px;
+}
+
+/* .3 {
+    background-color: #9900ff;
+    height: 10px;
+    width: 50px;
+} */
+
+#game-list {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: 10px auto;
+}
+
+#game-list > div {
+    margin: 10px;
+    border: 3px solid black;
+}
+
+.game-preview {
+    height: 10em;
+    width: 25em;
+}
+
+.device {
+    height: 3em;
+    width: 3em;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount-price {
+    background-color: #9900ff;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 45px;
+    justify-content: center;
+}
+
+.original-price {
+    display: flex;
+    text-decoration: line-through;
+}
+
+.buying-price {
+    display: flex;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.buy-button{
+    background-color: #6aa74e;
+    color: white;
+    width: 45px;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+    <title>Yello Belt Exam (Gaming Dojo)</title>
+</head>
+<body>
+    <div class="purple-line"></div>
+    <nav>
+        <div class="left-nav">
+            <h1 class="gaming">Gaming</h1>
+            <h1 class="dojo">Dojo</h1>
+        </div>
+        <div class="right-nav">
+            <select name="pricing" id="pricing" onchange="priceCurrency(this)">
+                <option value="euro">Euro €</option>
+                <option value="usd">USD $</option>
+                <option value="cad">CAD $</option>
+            </select>
+            <button class="nav-button"><img class="cart-pic" src="./images/cart-light.png" alt="cart image">0</button>
+            <button class="nav-button"><img src="./images/search-light.png" alt="search button"></button>
+        </div>
+    </nav>
+
+    <div id="highlights">
+        <h2>Highlights</h2>
+        <div class="banner-preview">
+            <button onclick="bannerLeft()">←</button>
+            <img class="currentBanner" src="./images/stonepunk.png" alt="Banner Highlight">
+            <button onclick="bannerRight()">→</button>
+        </div>
+        <div class="preview-location">
+            <div class="cafe"></div>
+            <div class="pixel"></div>
+            <div class="stone"></div>
+        </div>
+    </div>
+
+    <div id="game-list">
+        <div class="cafe-neko">
+            <img class="game-preview" src="./images/cafe-neko.png" alt="Cafe Neko: Gold Edition preview">
+            <h3>Cafe Neko: Gold Edition</h3>
+            <img class="device" src="./images/windows.png" alt="Widows icon" onclick="windows()">
+            <img class="device" src="./images/apple.png" alt="Apple icon" onclick="apple()">
+            <div class="pricing">
+                <div class="discount-price">-20%</div>
+                <div class="price-row">
+                    <div class="original-price">
+                        <p class="currenc-sign">€</p>
+                        <p class="price">14.98</p>
+                    </div>
+                    <div class="buying-price">
+                        <p class="currenc-sign">€</p><p class="price">10.49</p>
+                    </div>
+                </div>
+                <button class="buy-button" onclick="add1ToCart()">Buy</button>
+            </div>
+        </div>
+        <div class="pixel-ninjas">
+            <img class="game-preview" src="./images/pixel-ninjas-2.png" alt="Pixel Ninjas 2 preview">
+            <h3>Pixel Ninjas 2</h3>
+            <img class="device" src="./images/windows.png" alt="Widows icon" onclick="windows()">
+            <img class="device" src="./images/apple.png" alt="Apple icon" onclick="apple()">
+            <div class="pricing">
+                <div class="discount-price">-10%</div>
+                <div class="price-row">
+                    <div class="original-price">
+                        <p class="currenc-sign">€</p><p class="price">8.19</p>
+                    </div>
+                    <div class="buying-price">
+                        <p class="currenc-sign">€</p><p class="price">7.39</p>
+                    </div>
+                </div>
+                <button class="buy-button" onclick="add1ToCart()">Buy</button>
+            </div>
+        </div>
+        <div class="stonepunk">
+            <img class="game-preview" src="./images/stonepunk.png" alt="Stonepunk 10000 BCE preview">
+            <h3>Stonepunk 10000 BCE</h3>
+            <img class="device" src="./images/windows.png" alt="Widows icon" onclick="windows()">
+            <img class="device" src="./images/apple.png" alt="Apple icon" onclick="apple()">
+            <img class="device" src="./images/linux.png" alt="Linux icon" onclick="linux()">
+            <div class="pricing">
+                <div class="discount-price">New</div>
+                <div class="price-row">
+                    <div class="original-price">
+                        <p class="currenc-sign">€</p><p class="price">19.99</p>
+                    </div>
+                    <div class="buying-price">
+                        <p class="currenc-sign">€</p><p class="price">19.99</p>
+                    </div>
+                </div>
+                <button class="buy-button" onclick="add1ToCart()">Buy</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
